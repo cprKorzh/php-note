@@ -48,13 +48,14 @@ Follow the steps below to complete the setup.
 > - Cofigurate the `hosts` file like this:
 >
 > ```
-> # XAMMP sites:
+> # XAMPP sites:
 > 127.0.0.1 <fncswab>.local
 > # End of section
 > ```
 >
+> - Rename the folder with cloned repository on `<fncswab>.local`. In this case `php-note.local`.
 > - Restart apache server in the XAMMP control panel.
-> - Use the alias in your browser.
+> - Use the `php-note.local` alias in your browser.
 
 ### With separated installing apache and php
 
