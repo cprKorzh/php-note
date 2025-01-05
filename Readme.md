@@ -30,6 +30,13 @@ Follow the steps below to complete the setup.
 >
 > ```apache
 > <VirtualHost *:80>
+>   DocumentRoot "C:/xampp/htdocs"
+>   ServerName localhost
+>   ErrorLog "logs/localhost.log"
+>   CustomLog "logs/localhost.log" common
+> </VirtualHost>
+>
+> <VirtualHost *:80>
 >   DocumentRoot "C:/xampp/htdocs/sites/<fncswab>.local"
 >   ServerName <fncswab>.local
 >   ErrorLog "logs/<fncswab>-local.com-error.log"
