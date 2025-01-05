@@ -164,7 +164,8 @@ Follow the steps below to complete the setup.
 
 5. Create a `localhost` folder in the `C:\` directory to store your local projects.
 6. Clone and extract the files from this repository into the `localhost` directory.
-7. Run `httpd.exe` in the `C:\apache<version-without-angle-brackets>`.
+7. Run `httpd.exe` in the `C:\apache<version-without-angle-brackets>\bin`.
+8. Type `http://localhost/php-note/` in your browser.
 
 ## Instruction for Linux
 

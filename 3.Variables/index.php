@@ -8,7 +8,10 @@
 </head>
 
 <body>
-    Variables
+    <?php
+    $num = 10;
+    echo "num = $num"
+    ?>
 </body>
 
 </html>
